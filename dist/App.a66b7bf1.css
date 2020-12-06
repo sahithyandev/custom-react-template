@@ -1,0 +1,2 @@
+:root{font-size:16px}body{margin:0;background-color:#222;color:#fff;font-family:Roboto;height:100vh}body,div{display:flex;justify-content:center;align-items:center}div{flex-direction:column}.logo{width:50%;animation:rotate-img 10s linear infinite}@keyframes rotate-img{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+/*# sourceMappingURL=/App.a66b7bf1.css.map */

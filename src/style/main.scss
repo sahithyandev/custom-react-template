@@ -12,3 +12,24 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  animation: rotate-img 10s linear infinite;
+}
+
+@keyframes rotate-img {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
